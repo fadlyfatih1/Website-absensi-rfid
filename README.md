@@ -33,3 +33,35 @@ Data hasil scanning RFID diproses dan disimpan ke database, kemudian ditampilkan
 
 ```bash
 git clone https://github.com/fadlyfatih1/Website-absensi-rfid.git
+```
+
+### 2. Masukkan project ke XAMPP
+
+Letakkan folder project di:
+
+C:\xampp\htdocs\
+
+### 3. Buat database
+
+Buat database MySQL melalui phpMyAdmin dan import file database yang tersedia di project "database.sql".
+
+### 4. Konfigurasi database
+
+Sesuaikan konfigurasi database pada file:
+config.php
+
+### 5. Jalankan project
+
+Aktifkan Apache dan MySQL melalui XAMPP, kemudian buka:
+http://localhost/website-absensi-rfid/
+
+### 👤 Default Login
+
+Admin
+
+Username: admin
+Password: admin
+
+### 📷 Preview
+
+<img width="1920" height="829" alt="Screenshot 2026-08-30 133248" src="https://github.com/user-attachments/assets/e87f410f-9828-42be-bb1f-ff40ad5a711e" />
